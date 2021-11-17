@@ -1,0 +1,11 @@
+[
+    202, # Holiday Oil (UT)
+    88,  # Maverik
+    31,  # Chevron
+    123, # Sinclair
+    101, # Phillips 66
+    122, # Shell
+    36,  # Conoco
+    48,  # Exxon
+    135  # Texaco
+]
