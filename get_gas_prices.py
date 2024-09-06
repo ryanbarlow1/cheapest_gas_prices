@@ -15,7 +15,7 @@ for brandId in brandIds:
     stations = jsonResponse['data']['locationByArea']['stations']
 
     for station in stations['results']:
-        if int(station['brands'][0]['brandId']) in brandIds and (station['prices'][0]['credit']['price'] != 0):
+        if station['prices'][0]['credit']['price'] != 0:
             stationId = station['id']
             data[stationId] = {
                 'StationName': station['name'],
